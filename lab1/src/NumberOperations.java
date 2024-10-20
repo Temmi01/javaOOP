@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Collections;
-import java.math.*;
+import java.math.BigDecimal;
 
 public class NumberOperations {
     public static void main(String[] args) {
@@ -56,6 +56,10 @@ public class NumberOperations {
                 bigDecimals.add((BigDecimal)number);
             }
         }
+
+        BigDecimal newNum = bigDecimals.get(0).add(BigDecimal.valueOf(integers.get(0)));
+        Integer newInt = Math.round(newNum.floatValue());
+        System.out.println("\nNew numb: " + newInt);
 
         System.out.print("\nList of integers: ");
         for (Integer i : integers) {
