@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class Main {
   public static void main() {
-    double budget = 100.0;
+    double budget = 10.0;
     Room room = new Room(budget);
 
     room.showToys();
@@ -32,6 +32,8 @@ public class Main {
     ArrayList<Toy> priceRange = Room.findByPrice(room.getToys(), 10.0, 20.0);
     System.out.println("\nToys with price range from 10 to 20:");
     priceRange.forEach(toy -> System.out.println(toy.getName() + " " + toy.getSize() + " " + toy.getPrice()));
+
+
   }
 }
 
@@ -60,7 +62,7 @@ abstract class Toy {
 
   protected abstract Map<Size, Double> getPriceMap();
 
-  public double makePrice() {
+  protected double makePrice() {
     return getPriceMap().getOrDefault(size, 0.0);
   }
 }
@@ -154,7 +156,7 @@ class Room {
   }
 
   public void addToy(Toy toy) {
-    if( toy.getPrice() + this.spendMoney < this.price ){
+    if( toy.getPrice() + this.spendMoney <= this.price ){
       this.toys.add(count, toy);
       count++;
       spendMoney += toy.getPrice();
@@ -174,7 +176,7 @@ class Room {
         new Car("Car", Size.LARGE),
         new Doll("Doll", Size.LARGE),
         new Ball("Ball", Size.LARGE),
-        new Cube("Cube", Size.LARGE)
+        new Cube("Cube", Size.LARGE),
     };
 
     double sum = 0;
