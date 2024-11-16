@@ -1,0 +1,8 @@
+-classpath 'C:\\Users\\rosti\\Desktop\\unik\\javaOOP\\lab3\\build\\classes\\java\\main;C:\\Users\\rosti\\Desktop\\unik\\javaOOP\\lab3\\build\\resources\\main'
+-d 'C:\\Users\\rosti\\Desktop\\unik\\javaOOP\\lab3\\build\\docs\\javadoc'
+-doctitle 'gilded-rose-kata 0.0.1-SNAPSHOT API'
+-notimestamp 
+-quiet 
+-windowtitle 'gilded-rose-kata 0.0.1-SNAPSHOT API'
+'C:\\Users\\rosti\\Desktop\\unik\\javaOOP\\lab3\\src\\main\\java\\com\\gildedrose\\GildedRose.java'
+'C:\\Users\\rosti\\Desktop\\unik\\javaOOP\\lab3\\src\\main\\java\\com\\gildedrose\\Item.java'
