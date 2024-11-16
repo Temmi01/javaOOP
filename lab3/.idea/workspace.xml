@@ -23,8 +23,8 @@
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.gildedrose.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.gildedrose.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.gildedrose.#421ompareText.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.gildedrose.#421ompareText.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gildedrose/GildedRose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gildedrose/GildedRose.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gildedrose/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gildedrose/Item.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +205,7 @@
       <option name="presentableId" value="Default" />
       <updated>1731712905065</updated>
       <workItem from="1731712907793" duration="2016000" />
-      <workItem from="1731714955185" duration="3756000" />
+      <workItem from="1731714955185" duration="4807000" />
     </task>
     <servers />
   </component>

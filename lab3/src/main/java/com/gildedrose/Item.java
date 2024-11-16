@@ -14,7 +14,7 @@ public class Item {
         this.quality = quality;
     }
 
-  static void IncreasesQualityByOne(Item item) {
+  static void increaseQualityByOne(Item item) {
       if (item.quality < 50) {
         item.quality = item.quality + 1;
       }
