@@ -1,4 +1,10 @@
+com/gildedrose/AgedBrie.java
+ com.gildedrose.AgedBrie
 com/gildedrose/Item.java
  com.gildedrose.Item
+com/gildedrose/Sulfuras.java
+ com.gildedrose.Sulfuras
+com/gildedrose/BackstagePass.java
+ com.gildedrose.BackstagePass
 com/gildedrose/GildedRose.java
  com.gildedrose.GildedRose

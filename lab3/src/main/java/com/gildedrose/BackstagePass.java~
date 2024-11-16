@@ -1,0 +1,21 @@
+package com.gildedrose;
+
+public class BackstagePass extends Item {
+  public BackstagePass(int sellIn, int quality) {
+    super("Backstage passes to a TAFKAL80ETC concert", sellIn, quality);
+  }
+
+  @Override
+  public void updateQuality() {
+    item.increaseQualityByOne();
+    if (item.sellIn < 11) {
+      item.increaseQualityByOne();
+    }
+    if (item.sellIn < 6) {
+      item.increaseQualityByOne();
+    }
+    item.sellIn = item.sellIn - 1;
+    if (item.sellIn < 0) {
+      item.quality = 0;
+    }
+  }

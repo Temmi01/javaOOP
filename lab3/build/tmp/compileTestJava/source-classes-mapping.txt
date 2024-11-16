@@ -1,6 +1,6 @@
-com/gildedrose/СompareText.java
- com.gildedrose.СompareText
-com/gildedrose/TexttestFixture.java
- com.gildedrose.TexttestFixture
 com/gildedrose/GildedRoseTest.java
  com.gildedrose.GildedRoseTest
+com/gildedrose/TexttestFixture.java
+ com.gildedrose.TexttestFixture
+com/gildedrose/СompareText.java
+ com.gildedrose.СompareText
